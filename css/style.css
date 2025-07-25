@@ -247,6 +247,12 @@ body {
     margin-bottom: 2.5rem;
 }
 
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
 .left-content {
     width: 22.8125rem;
 }
@@ -326,7 +332,6 @@ body {
 .bestsellers {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
 }
 
 .product-card__list {
@@ -535,7 +540,6 @@ body {
 .advantages-card:hover p {
     display: block;
 }
-
 
 .mounth-item {
     display: flex;
